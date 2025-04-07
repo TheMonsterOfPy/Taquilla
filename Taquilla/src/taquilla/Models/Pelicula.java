@@ -9,5 +9,20 @@ package taquilla.Models;
  * @author sant9
  */
 public class Pelicula {
-    
+    private String titulo;
+    private double costoBase;
+
+    public Pelicula(String titulo, double costoBase) {
+        this.titulo = titulo;
+        this.costoBase = costoBase;
+    }
+
+    public String getTitulo() {
+        return titulo;
+    }
+
+    public double getCostoBase() {
+        return costoBase;
+    }
 }
+
